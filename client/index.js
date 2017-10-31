@@ -12,7 +12,7 @@ import SongDetail from './components/SongDetail';
 
 //to tell react that record with particular id has updated , please render associated components
 const client = new ApolloClient({
-    //dataIdFromObject: o => o.id
+    dataIdFromObject: o => o.id
 });
 
 const Root = () => {
